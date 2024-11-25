@@ -1,0 +1,373 @@
+@font-face {
+    font-family: 'francois';
+    src: url('JacquesFrancoisShadow-Regular.ttf') format('truetype');
+  }
+#text-element {
+    font-family: 'francois';
+}
+
+html{
+    background-color: #252525;
+    width: 100%;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+}
+
+.menu-bar{
+    background-color: #363636;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-content{
+    width: 62.5%;
+    display: flex;
+}
+
+.main-block{
+    width: 60%;
+    display: flex;
+}
+
+.block-logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 37.5%;
+    
+}
+
+.logo{
+    width: 128px;
+    height: 128px;
+
+}
+
+.logo-title{
+    font-family: 'francois';
+    color: #dddddd;
+    font-size: 36px
+}
+
+.menu-items{
+    width: 62.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item{
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 8px;
+}
+
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+.login-block{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.login{
+    font-size: 32px;
+    color: #FFD700;
+    border-width: 4px;
+    border-color: #DAA520;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 4px;
+    background-color: transparent;
+
+}
+
+.login:hover{
+    text-decoration: underline;
+
+}
+
+.sign-up{
+    font-size: 32px;
+    color: #ffffff;
+    border-width: 0px;
+    padding: 4px;
+    background-color: #DAA520;
+    border-radius: 15px;
+    margin-left: 36px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.container1-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imagens/background.png');
+    background-size: 1920px;
+    background-repeat: no-repeat;
+
+}
+
+.container1{
+    height: 700px;
+    width: 62.5%;
+    align-items: end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.text-block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+.sell-title{
+    font-size: 64px;
+
+}
+
+.golden-sell-title{
+    color: #FFA600;
+}
+
+.sell-subtitle{
+    font-size: 32px;
+}
+
+.sign-on{
+    font-size: 32px;
+    color: #ffffff;
+    border-width: 0px;
+    padding: 4px;
+    background-color: #FFA600;
+    border-radius: 15px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.adds-block{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+}
+
+
+.adds-block img{
+    width: 540px;
+    
+}
+
+.data-block{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.data-title{
+    font-size: 24px;
+    color: #FFD700;
+    margin: 24px;
+}
+
+.data{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.data-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-number{
+    font-size: 48px;
+    margin: 0;
+}
+
+.card-subtitle{
+    font-size: 24px;
+    margin: 0;
+}
+
+.product-examples{
+    display: block;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container2-background{
+    background-color: #0E0E0E;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 62.5%;
+    padding: 30px;
+}
+
+
+.item-example{
+    font-size: 24px;
+    margin: 8px;
+}
+
+.coaches-block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.coaches-block img{
+    width: 320px;
+
+}
+
+.about-coach{
+    font-size: 26px;
+
+}
+
+.container3-background{
+
+    /* background: url('imagens/correntedeouro.png');
+    background-size: 500px;
+    background-repeat: no-repeat; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+
+    width: 62.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.motivation-block{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-block{
+    width: 100%;
+    background-color: #363636;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 360px;
+}
+
+.motivation-card{
+    width: 260px;
+    height: 260px;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-icon{
+    width: 64px;
+    margin: 0px;
+}
+
+.card-text{
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+}
+
+.motivation-title{
+    font-size: 48px;
+
+}
+
+.start-now-block{
+    background-color: #DAA520;
+    width: 100%;
+    height: 440px;
+    background: url('imagens/goldenbar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.start-now-block h1 {
+    font-size: 64px;
+}
+
+.start-now-block h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.joinus {
+    font-size: 42px;
+    color: #000000;
+    background-color: #FFD700;
+    border-width: 1px;
+
+}
