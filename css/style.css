@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'francois';
-    src: url('JacquesFrancoisShadow-Regular.ttf') format('truetype');
-}
-
-
 html{
     background-color: #252525;
     width: 100%;
@@ -15,9 +9,7 @@ body{
     flex-direction: column;
     align-items: center;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-
-    
+    font-family: Arial, Helvetica, sans-serif;   
 
 }
 
@@ -32,54 +24,44 @@ body{
 .menu-content{
     width: 80%;
     display: flex;
-}
-
-.main-block{
-    width: 50%;
-    display: flex;
-}
-
-.block-logo{
-    display: flex;
-    justify-content: left;
     align-items: center;
-    width: 37.5%;
-    
+    justify-content: space-between;
 }
+
 
 .logo{
-    width: 128px;
-    height: 128px;
+    height: 14vh;
+    min-height: 64px;
 
-}
-
-.logo-title{
-    font-family: 'francois';
-    color: #dddddd;
-    font-size: 36px
 }
 
 .menu-items{
-    width: 62.5%;
+    width: 40%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 5vw;
+
 }
 
 .menu-item{
-    color: #ffffff;
-    font-size: 16px;
+    font-size:calc(12px + 0.5vw);
     text-decoration: none;
-    margin: 8px;
+    margin: 1vw;
+
+
 }
 
 
 .menu-item:hover{
     text-decoration: underline;
+    cursor: pointer;
+
 }
 
 .login-block{
-    width: 50%;
+    width: 8vw;
+    max-width: 50%;
+    min-width: 320px;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -87,36 +69,47 @@ body{
 }
 
 .login{
-    font-size: 32px;
+    font-size:calc(16px + 0.5vw);
     color: #FFD700;
-    border-width: 4px;
+    border-width: 3px;
     border-color: #DAA520;
     border-radius: 15px;
     border-style: solid;
-    padding: 4px;
+    padding: 3px;
     background-color: transparent;
 
 }
 
 .login:hover{
-    text-decoration: underline;
+    cursor: pointer;
+    color: #fff1a0;
+    border-width: 3px;
+    border-color: #ffde8a;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.089);
 
 }
 
 .sign-up{
-    font-size: 32px;
+    font-size:calc(16px + 0.5vw);
     color: #ffffff;
     border-width: 0px;
-    padding: 4px;
+    padding: 3px;
     background-color: #DAA520;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-left: 36px;
-    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.sign-up:hover{
+
+    cursor: pointer;
+    background-color: #ffe39b;
 
 }
 
 .container{
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,15 +121,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imagens/background.png');
-    background-size: 1920px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../imagens/background.png');
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .container1{
     height: 700px;
-    width: 62.5%;
+    width: 80%;
     align-items: end;
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +144,6 @@ body{
     align-items: flex-start;
 
 }
-
 
 .sell-title{
     font-size: 64px;
@@ -172,9 +164,18 @@ body{
     border-width: 0px;
     padding: 4px;
     background-color: #FFA600;
-    border-radius: 15px;
-    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
+
+.sign-on:hover{
+
+    cursor: pointer;
+    background-color: #ffe39b;
+
+}
+
+
 
 .adds-block{
     display: flex;
@@ -247,7 +248,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 62.5%;
+    width: 80%;
     padding: 30px;
 }
 
@@ -277,38 +278,37 @@ body{
 }
 
 .container3-background{
-
-    /* background: url('imagens/correntedeouro.png');
-    background-size: 500px;
-    background-repeat: no-repeat; */
     width: 100%;
     display: flex;
     justify-content: center;
+
 }
 
 .container3{
 
-    width: 62.5%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .motivation-block{
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .card-block{
-    width: 100%;
+    width: 80%;
     background-color: #363636;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 360px;
+
 }
 
 .motivation-card{
@@ -325,12 +325,14 @@ body{
 .card-icon{
     width: 64px;
     margin: 0px;
+
 }
 
 .card-text{
     font-size: 24px;
     text-align: center;
     margin: 0px;
+
 }
 
 .motivation-title{
@@ -339,11 +341,10 @@ body{
 }
 
 .start-now-block{
-    background-color: #DAA520;
     width: 100%;
-    height: 440px;
-    background: url('imagens/goldenbar.png');
-    background-size: cover;
+    height: 550px;
+    background: url('../imagens/goldenbar.png');
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -356,11 +357,13 @@ body{
 
 .start-now-block h1 {
     font-size: 64px;
+
 }
 
 .start-now-block h2 {
     font-size: 32px;
     text-align: center;
+
 }
 
 .joinus {
@@ -368,5 +371,24 @@ body{
     color: #000000;
     background-color: #FFD700;
     border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 
+}
+
+.skele-text2{
+
+    height: 180px;
+    width: 100%;
+    background-color: #000000;
+    align-self: center;
+
+  
+}
+  
+.skele-text2 p{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: left;
+    padding: 15px;
 }
